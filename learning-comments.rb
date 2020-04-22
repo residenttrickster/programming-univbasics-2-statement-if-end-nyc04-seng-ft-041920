@@ -1,10 +1,5 @@
-current_weather = "raining"
-
-case current_weather
-when "raining"
-  puts "grab an umbrella"
-when "sunny"
-  puts "grab a hat"
-when "snowing"
-  puts "bundle up"
+count = 0
+while count<3 do 
+  puts "I am the #{count}, I love to count!"
+  count += 1
 end
