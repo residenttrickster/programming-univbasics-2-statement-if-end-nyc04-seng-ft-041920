@@ -1,3 +1,10 @@
-puts "You know what year it is??"
-this_year = 2019
-puts "Hey, it's 2019!" if this_year == 2019
+current_weather = "raining"
+
+case current_weather
+when "raining"
+  puts "grab an umbrella"
+when "sunny"
+  puts "grab a hat"
+when "snowing"
+  puts "bundle up"
+end
